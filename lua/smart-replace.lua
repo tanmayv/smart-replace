@@ -80,7 +80,7 @@ M.ReplaceVisual = function(from, to)
 end
 
 M.ReplaceFile = function(from, to)
-  R("'<'>", from, to)
+  R("%", from, to)
 end
 
 return M
